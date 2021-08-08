@@ -1,0 +1,62 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: WebTours",
+                "infFile": "t1.inf",
+                "time": 1619333681317
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Login",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: login.pl",
+                "infFile": "t7.inf",
+                "time": 1619333682109
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Iternary",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: welcome.pl_2",
+                "infFile": "t10.inf",
+                "time": 1619333682438
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "CancelSelected",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: itinerary.pl_2",
+                "infFile": "t14.inf",
+                "time": 1619333686812
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "SignOff",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: welcome.pl_3",
+                "infFile": "t15.inf",
+                "time": 1619333687044
+            }
+        ],
+        "transactions": []
+    }
+]

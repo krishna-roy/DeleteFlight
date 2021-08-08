@@ -1,0 +1,8 @@
+[parameter:host_127_0_0_1_1080]
+CurrentValue="127.0.0.1:1080"
+IsEncrypt="NO"
+IsServer="YES"
+OriginalValue="127.0.0.1:1080"
+ParamName="host_127_0_0_1_1080"
+Prompt=""
+Type="Custom"

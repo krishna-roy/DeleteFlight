@@ -1,0 +1,280 @@
+[API Trapper      (3f08:38dc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (4a74:1a34)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (50e4:4bcc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (50e4:44d0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (50e4:44d0)] Load Network Traffic Analyzers:
+[Network Analyzer (50e4:44d0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (50e4:44d0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (50e4:44d0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (50e4:44d0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (50e4:44d0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (50e4:44d0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (50e4:44d0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (50e4:44d0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (50e4:2d3c)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Net An. Debug    (50e4:2d3c)] IP address belongs to the VirtualBox, taking the another interface with ip=192.168.0.179
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 142.250.194.131:443   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (50e4:2d3c)] "GET /WebTours/"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  1) Client -> Server @ : 638 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2440)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (50e4:2d3c)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 142.250.194.237:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 172.217.160.234:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (50e4:2b98)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (50e4:3c5c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 142.250.182.163:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (50e4:2440)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 172.217.160.234:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (50e4:2d3c)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=90"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  2) Client -> Server @ : 448 bytes (SSL)(Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /WebTours/header.html"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  7) Client -> Server @ : 675 bytes (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  8) Client -> Server @ : 686 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  7) Server -> Client : 1008 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2b98)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (50e4:3c5c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (50e4:27d0)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (50e4:2d3c)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  7) Client -> Server @ : 591 bytes (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  9) Client -> Server @ : 592 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  7) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  9) Server -> Client : 4487 bytes  (Service=HTTP)
+[Network Analyzer (50e4:27d0)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (50e4:4708)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (50e4:2d3c)]   (Sid:  8) Server -> Client : 1088 bytes  (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /safebrowsing/csd/client_model_v5_variation_8.pb"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Client -> Server @ : 379 bytes (SSL)(Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  8) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  2) Server -> Client : 327 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 976 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  5) Server -> Client : 25 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:4708)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (50e4:2d3c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  8) Client -> Server @ : 794 bytes (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /WebTours/home.html"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  9) Client -> Server @ : 790 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  9) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  8) Server -> Client : 1884 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  8) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 142.250.195.10:443   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (50e4:2d3c)] "GET /WebTours/JSFormSubmit.js"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  8) Client -> Server @ : 625 bytes (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  9) Client -> Server @ : 690 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  8) Server -> Client : 601 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  9) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (50e4:37cc)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (50e4:37cc)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (50e4:2d3c)] "GET /favicon.ico"   
+[Network Analyzer (50e4:2d3c)]   (Sid:  9) Client -> Server @ : 659 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  9) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 142.250.195.10:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (50e4:276c)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (50e4:276c)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      (2e18: d18)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Web Request      (50e4:2d3c)] "GET /v1/pages/ChNDaHJvbWUvOTAuMC40NDMwLjg1EhcJN9lB4I9-MYkSBQ3njUAOEgUNzkFMeg==?alt=proto"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 11) Client -> Server @ : 534 bytes (SSL)(Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 11) Server -> Client : 628 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (50e4:2d3c)]   (Sid:  9) Connection Terminated (by Server)
+[API Trapper      (3cb8:4724)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 172.217.194.188:5228   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 142.250.195.14:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (50e4:3714)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (50e4:3714)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (50e4:2d3c)]   (Sid: 12) Client -> Server @ : 154 bytes (SSL)
+[Network Analyzer (50e4:2d3c)]   (Sid: 12) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (50e4:24a0)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (50e4:2d3c)]   (Sid: 12) Server -> Client : 65 bytes (SSL)
+[Network Analyzer (50e4:2d3c)]   (Sid: 12) Server -> Client : 26 bytes (SSL)
+[Network Analyzer (50e4:24a0)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (50e4:2d3c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 14) Client -> Server @ : 1049 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 14) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 14) Client -> Server @ : 899 bytes (Service=HTTP)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (50e4:2d3c)]   (Sid: 14) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 15) Client -> Server @ : 894 bytes (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 14) Client -> Server @ : 808 bytes (Service=HTTP)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Web Request      (50e4:2d3c)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 16) Client -> Server @ : 810 bytes (Service=HTTP)
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (50e4:2d3c)]   (Sid: 16) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:2d3c)]   (Sid: 14) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (50e4:2d3c)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 17) Client -> Server @ : 808 bytes (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 18) Client -> Server @ : 808 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 17) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 18) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 15) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (50e4:2d3c)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (50e4:2d3c)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (50e4:2d3c)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (50e4:2d3c)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 142.250.193.35:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (50e4:36ac)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (50e4:36ac)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (50e4:2d3c)]   (Sid: 19) Client -> Server @ : 1202 bytes (SSL)(Service=HTTP)
+[Web Request      (50e4:2d3c)] "POST /service/update2/json?cup2key=10:4173079539&cup2hreq=111b8679c81d1264a7d6b164c2efe207e03ba6f0f01dcc0b81270f1378e1e987"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 19) Client -> Server @ : 6780 bytes (SSL)(Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 19) Server -> Client : 1266 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 19) Server -> Client : 1014 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 19) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      (50e4:2d3c)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 20) Client -> Server @ : 936 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 20) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 20) Client -> Server @ : 921 bytes (Service=HTTP)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (50e4:2d3c)]   (Sid: 20) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 21) Client -> Server @ : 904 bytes (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 20) Client -> Server @ : 818 bytes (Service=HTTP)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (50e4:2d3c)]   (Sid: 20) Server -> Client : 1030 bytes  (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 22) Client -> Server @ : 810 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 22) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 21) Server -> Client : 3977 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 21) Client -> Server @ : 806 bytes (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 22) Client -> Server @ : 810 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 22) Server -> Client : 1039 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 21) Server -> Client : 1128 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (50e4:2d3c)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer (50e4:2d3c)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (50e4:2d3c)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 23) Client -> Server @ : 1154 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 23) Server -> Client : 2866 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 23) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (50e4:2d3c)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 24) Client -> Server @ : 936 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 24) Server -> Client : 1088 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 24) Client -> Server @ : 791 bytes (Service=HTTP)
+[Network Analyzer (50e4:44d0)] Address lookup for DESKTOP-8U7F33E = 192.168.56.1
+[Network Analyzer (50e4:44d0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (50e4:2d3c)]   (Sid: 24) Server -> Client : 1882 bytes  (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (50e4:2d3c)] "GET /WebTours/home.html"   
+[Network Analyzer (50e4:2d3c)]   (Sid: 25) Client -> Server @ : 887 bytes (Service=HTTP)
+[Network Analyzer (50e4:2d3c)]   (Sid: 25) Server -> Client : 194 bytes  (Service=HTTP)

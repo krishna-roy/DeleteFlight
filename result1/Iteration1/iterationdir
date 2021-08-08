@@ -1,0 +1,14 @@
+[SignOff]
+SnapshotIndex=I1_SignOff
+[Action]
+SnapshotIndex=I1_Action
+[Iternary]
+SnapshotIndex=I1_Iternary
+[CancelSelected]
+SnapshotIndex=I1_CancelSelected
+[Login]
+SnapshotIndex=I1_Login
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[vuser_end]
+SnapshotIndex=I1_vuser_end
